@@ -3,6 +3,7 @@
 A Bounding Volume Hierarchy (BVH) is a data structure containing nested geometric objects wrapped in bounding volumes.
 
 Example of a BVH: https://image1.slideserve.com/3410272/bounding-volume-hierarchies-l.jpg
+
 More Information of BVH's: https://en.wikipedia.org/wiki/Bounding_volume_hierarchy
 
 Given a map of boxes, count how many a given ray intersects a box within the map.
