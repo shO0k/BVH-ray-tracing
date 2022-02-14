@@ -10,7 +10,6 @@ using namespace std;
 Ray::Ray() {}
 // constructor for ray, includes anchor point, slope, and direction
 Ray::Ray(const Vec2D &new_ap, const double &new_slope, const int &new_direction) {
-    //string slope_str = to_string(new_slope);
     ap = new_ap;
     slope = new_slope;
     direction = new_direction;
