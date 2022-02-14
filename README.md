@@ -1,6 +1,6 @@
 # BVH-ray-tracing GL;HF
 
-A Bounded Volume Hierarchy (BVH) is a map containing nested boxes.
+A Bounded Volume Hierarchy (BVH) is a data structure containing nested boxes.
 Example of a BVH: https://image1.slideserve.com/3410272/bounding-volume-hierarchies-l.jpg
 
 Given a map of boxes, count how many a given ray intersects a box within the map.
