@@ -21,5 +21,5 @@ Examples:
   - ray: -1 -1 1 0 does NOT intersect a box: 2 2 3 3
 
 In addition to counting the number of intersections on each box, we must also:
-  - check the map for correctness (no solid box overlap or "children" not fully contained by their "parents")
+  - check the map for correctness (I.E. no solid box overlap or "children" not fully contained by their "parents")
   - convert a non-numerical value inputted for slope to a vertical slope
