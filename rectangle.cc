@@ -1,7 +1,7 @@
+#include <iostream>
 #include <vector>
 #include "rectangle.h"
 #include "ray.h"
-#include <iostream>
 using namespace std;
 // TO_DO: impliment isSolid bool for contain functions
 template <class T>
