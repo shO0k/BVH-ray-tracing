@@ -1,10 +1,10 @@
 #include <iostream>
 #include <iomanip>
-#include "rectangle.h"
-#include "ray.h"
 #include <string>
 #include <fstream>
 #include <sstream>
+#include "rectangle.h"
+#include "ray.h"
 using namespace std;
 
 // die function
