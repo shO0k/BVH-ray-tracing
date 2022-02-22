@@ -1,9 +1,9 @@
 #include <iostream>
 #include <iomanip>
-#include "ray.h"
-#include "rectangle.h"
 #include <string>
 #include <cmath>
+#include "ray.h"
+#include "rectangle.h"
 using namespace std;
 // refactor collision function for correct front-end output (see hit function: line 50): DONE
 // impliment special case for vertical slope (see hit function: line 50): DONE
