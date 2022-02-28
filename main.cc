@@ -273,7 +273,6 @@ int main() {
         getline(cin, user_input2);
         stringstream iss2(user_input2);
         iss2 >> ray;
-        //cout << ray << endl;
         ray.hit(rect,true);
     }
     else if (user_choice == "6") { // TO-DO
