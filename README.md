@@ -1,4 +1,6 @@
 # BVH-ray-tracing GL;HF
+TO-DO: 
+   - fix map-wide collision function, make faster, make vector of parents within load map function.
 
 A Bounding Volume Hierarchy (BVH) is a data structure containing nested geometric objects wrapped in bounding volumes.
 
