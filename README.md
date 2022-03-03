@@ -19,7 +19,7 @@ Box format:
   - 1 2 2 4 4 represents a solid "child" box contained by the parent box listed above, with the "child's" bottom left corner at (2.00,2.00) and its upper left corner at (4.00,4.00).
 
 Examples:
-  - ray: 0 0 1 1 intersects a box: 2 2 3 3
+  - ray: 0 0 1 1 intersects a box: 2 2 3 3 at (2.00,2.00)
   - ray: -1 -1 1 0 does NOT intersect a box: 2 2 3 3
 
 In addition to counting the number of intersections on each box, we must also:
