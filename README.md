@@ -7,8 +7,8 @@ Example of a BVH: https://image1.slideserve.com/3410272/bounding-volume-hierarch
 More Information on BVH's: https://en.wikipedia.org/wiki/Bounding_volume_hierarchy
 
 Given a map of 2-dimensional boxes, count how many times a given ray intersects boxes within the map.
-  - ray consists of a point of origin and a direction
-  - boxes can contain other boxes
+  - a ray consists of a point of origin and a direction
+  - boxes can contain other boxes ("parents" contain "children")
 
 Ray format (not dissimmilar to the parametric vector equation of a line): 
   - 0 0 1 1 represents a ray with a point of origin (0.00,0.00), Slope: 1, Direction: forwards.
