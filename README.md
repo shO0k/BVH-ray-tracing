@@ -1,6 +1,4 @@
 # BVH-ray-tracing GL;HF
-TO-DO: 
-   - fix map-wide collision function, make faster, make vector of parents within load map function.
 
 A Bounding Volume Hierarchy (BVH) is a data structure containing nested geometric objects wrapped in bounding volumes.
 
@@ -27,3 +25,6 @@ Examples:
 In addition to counting the number of intersections on each box, we must also:
   - check the map for correctness (I.E. no solid box overlap or "children" not fully contained by their "parents")
   - convert a non-numerical value inputted for slope to a vertical slope (for example: 0 0 Vertical 1 must be converted to a ray with a point of origin (0.00,0.00), Slope: NAN (not a number/undefined, usually the result of division by 0 as in the case of vertical slope), Direction: forwards (upwards in the case of a vertical slope).
+
+TO-DO: 
+   - optimize map-wide collision function, auto populate vector of parents within load map function (see main.cc).
