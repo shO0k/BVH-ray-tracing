@@ -15,8 +15,8 @@ Ray format (not dissimmilar to the vector equation of a line):
   - 1 2 -1 0 represents a ray with a point of origin (1.00,2.00), Slope: -1, Direction: backwards.
 
 Box format: 
-  - 0 0 0 10 10 1 2 3 represents a "parent" box with the bottom left point (0.00,0.00), top right point (10.00, 10.00) and "children" on lines 1, 2, 3.
-  - 1 2 2 4 4 represents a "child" box contained by the parent box listed above, with the "child's" botto. left corner at (2.00,2.00) and its upper left corner at (4.00,4.00).
+  - 0 0 0 10 10 1 2 3 represents a non-solid "parent" box with the bottom left point (0.00,0.00), top right point (10.00, 10.00) and "children" on lines 1, 2, 3.
+  - 1 2 2 4 4 represents a solid "child" box contained by the parent box listed above, with the "child's" bottom left corner at (2.00,2.00) and its upper left corner at (4.00,4.00).
 
 Examples:
   - ray: 0 0 1 1 intersects a box: 2 2 3 3
