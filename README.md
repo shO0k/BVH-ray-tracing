@@ -10,7 +10,7 @@ Given a map of 2-dimensional boxes, count how many times a given ray intersects 
   - a ray consists of a point of origin and a direction
   - boxes can contain other boxes ("parents" contain "children")
 
-Ray format (not dissimmilar to the parametric vector equation of a line): 
+Ray format (not dissimmilar to the vector equation of a line): 
   - 0 0 1 1 represents a ray with a point of origin (0.00,0.00), Slope: 1, Direction: forwards.
   - 1 2 -1 0 represents a ray with a point of origin (1.00,2.00), Slope: -1, Direction: backwards.
 
